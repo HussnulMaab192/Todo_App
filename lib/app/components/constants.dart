@@ -7,7 +7,6 @@ Widget heading(String text) {
       color: const Color(0xff000000).withOpacity(0.9),
       fontWeight: FontWeight.w700,
       fontSize: 22,
-      height: 33,
       fontFamily: "Poppins",
     ),
   );
@@ -20,7 +19,6 @@ Widget subHeading(String text) {
       color: const Color(0xff000000).withOpacity(0.8),
       fontWeight: FontWeight.w600,
       fontSize: 15,
-      height: 22.5,
       fontFamily: "Poppins",
     ),
   );
@@ -41,4 +39,5 @@ Widget taskName(String text) {
 
 class AppColor {
   static Color backgroundColor = const Color(0xffE5E5E5);
+  static Color buttonColor = const Color(0xff62D2C3);
 }
